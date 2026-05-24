@@ -1,0 +1,254 @@
+.custom-navbar {
+    background-color: #ff6600 !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(156, 227, 106) !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Login Button */
+
+.login-btn {
+    border: 2px solid white !important;
+    color: white !important;
+    border-radius: 30px !important;
+    padding: 6px 18px !important;
+}
+
+
+/* Signup Button */
+
+.signup-btn {
+    border: 2px solid white !important;
+    color: white !important;
+    border-radius: 30px !important;
+    padding: 5px 9px !important;
+    background-color: #ff6600;
+}
+
+
+
+/* Hover color */
+.navbar-brand:hover {
+    color: rgb(156, 227, 106) !important;
+}
+
+/* Hero section */
+
+/* .hero img {
+    width: 100%;
+} */
+
+
+.aboutsec img {
+    width: 100%;
+}
+
+.aboutuss {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about1 {
+
+    text-align: center;
+}
+
+.about2 {
+    text-align: center;
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    color: black;
+
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.hero-content button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: rgb(156, 227, 106);
+    color: black;
+}
+
+/* product card */
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+    margin-bottom: 90px;
+}
+
+.card {
+    width: 280px;
+    border: 1.5px solid rgb(178, 134, 158);
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px 2px rgb(168, 168, 163);
+    background-color: white;
+    text-align: center;
+}
+
+ins {
+    padding-right: 10px;
+}
+
+.card img {
+    width: 220px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px 2px rgb(168, 168, 159);
+    cursor: pointer;
+}
+
+.card .heading {
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.card .pricing ins {
+    font-size: 15px;
+    text-decoration: none;
+    color: #ff6600;
+}
+
+
+.card button {
+    border-radius: 50px;
+    text-align: center;
+    width: 90%;
+    padding: 8px;
+    background-color: beige;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px 2px gray;
+    cursor: pointer;
+    border: 1px;
+
+}
+
+.card button:hover {
+    background-color: rgb(156, 227, 106);
+}
+
+
+
+
+/* Footer */
+
+/* footer {
+    display: flex;
+    background-color: #ff6600;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 15px 20px;
+    line-height: 2;
+} */
+
+ footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+    background-color: #ff6600;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 2;
+}
+
+.footer-contents ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contents ul li {
+    list-style-type: none;
+
+
+}
+
+.footer-contents ul li a:hover {
+    color: rgb(156, 227, 106);
+}
+
+.brand {
+    color: white
+}
+
+.contactDetails {
+    color: white
+}
+
+
+
+.slogan {
+    color: white
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-contents {
+        width: 100%;
+    }
+
+} 
+
